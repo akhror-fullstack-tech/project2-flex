@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./img/logo.png" alt="" class="logo" />
+        <form action="#" class="search">
+          <input type="text" class="search_input" placeholder="" Search hotel />
+
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/spirit.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nave__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/spirit.svg#icon-bookmark"></use>
+            </svg>
+          </div>
+          <!-- icon chat -->
+          <div class="user-nave__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/spirit.svg#icon-bookmark"></use>
+            </svg>
+          </div>
+          <div class="user-nav__user">
+            <img src="./img/user.jpg" alt="" class="user-nav__user-photo" />
+
+            <span class="user-nav__user-name">Jones</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">saidbar</nav>
+        <main class="hotel-view">Hotel view</main>
+      </div>
+    </div>
+  </body>
 </html>
