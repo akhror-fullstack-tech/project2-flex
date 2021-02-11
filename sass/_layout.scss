@@ -4,7 +4,7 @@
   background-color: var(--color-grey-light-4);
   box-shadow: var(--shadow-dark);
 
-  min-height: 50rem;
+  min-height: 70rem;
 }
 .header {
   font-size: 1.4rem;
@@ -29,7 +29,74 @@
   justify-content: space-between;
 }
 .hotel-view {
-  background-color: greenyellow;
+  background-color: var(--color-grey-light-3);
   flex: 1;
-  height: 80vh;
+  height: 90vh;
+}
+.cards {
+  display: flex;
+  background-color: var(--color-grey-light-4);
+
+  &__card-primary {
+    background-color: #fff;
+    height: 45rem;
+    width: 58rem;
+    margin: 3rem;
+    padding: 0 5rem;
+    font-size: 15px;
+
+    & p {
+      margin: 2rem 0;
+    }
+
+    & ul {
+      margin: 2rem 2rem;
+      list-style: none;
+    }
+
+    .lists {
+      display: flex;
+      align-items: center;
+      &__icon2 {
+        height: 2.25rem;
+        fill: var(--color-primary);
+        width: 2.25rem;
+      }
+    }
+  }
+}
+
+.card-secondary {
+  display: block;
+  &__card-third {
+    background-color: #fff;
+    height: 20rem;
+    width: 31rem;
+    margin: 3rem 0;
+  }
+  &__card-third-2 {
+    background-color: #fff;
+    height: 15rem;
+    width: 31rem;
+    margin: 3rem 0;
+  }
+}
+#lists {
+  margin-left: 12rem;
+}
+
+.list-last {
+  display: flex;
+  margin: 3rem 0;
+  align-items: center;
+  &__lastchild {
+    margin-left: 20rem;
+    display: flex;
+    & img {
+      border-radius: 20rem;
+      width: 4.25rem;
+      height: 4.25rem;
+      left: -3rem;
+    }
+  }
 }
